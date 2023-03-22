@@ -1,22 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 -> prints all natural numbers from n to 98
- * @n: input number to check
- * Return: all numbers
+ * add -> adds two intergers
+ * @i: parameter 1
+ * @j: parameter 2
+ * Return: Returns the result
  */
-void print_to_98(int n)
+int add(int i, int j)
 {
-	if (n >= 98)
-	{
-		while (n > 98)
-			printf("%d, ", n--);
-		printf("%d\n", n);
-	}
-	else
-	{
-		while (n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
-	}
+	int res;
+
+	res = (i + j);
+	return (res);
 }
