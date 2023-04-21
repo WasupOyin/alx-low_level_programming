@@ -1,4 +1,4 @@
-[200~#ifndef POINTERFUNCS
+#ifndef POINTERFUNCS
 #define POINTERFUNCS
 
 #include <stdio.h>
